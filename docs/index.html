@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook signup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <div class="main-div">
+        <h1 id="logo">facebook</h1>
+        <form id ="signup-form">
+            <div class = "sign-up">
+              <div class="form-heading">
+                <div><h3>Create a new account</h3></div>
+                <div class = "normal">It's quick and easy.</div>  
+              </div>
+              <div class = "input-fields">
+                <div class ="half-width"><input type = "text" class = "data1" placeholder = "First name" name="fname"/></div>
+                <div class ="half-width"><input type = "text" class = "data1" placeholder = "Surname" name="surname"/></div>
+                <div class ="full-width"><input type = "number" class = "data3" placeholder = "Mobile number or email address" name = "mnum"/></div>
+                <div class ="full-width"><input type = "password" class = "data3" placeholder = "New password" name ="pass"/></div>
+                <label>Date of birth</label>
+                <div class = "dob-div">
+                    <div class = "quat-width">
+                      <select><option value = "1" name = "date">1</option>
+                        <option value = "2" name = "date">2</option>
+                        <option value = "3" name = "date">3</option>
+                        <option value = "4" name = "date">4</option></select></div>
+                    <div class = "quat-width">
+                      <select><option value = "Jan" name = "month">Jan</option>
+                        <option value = "Feb" name = "month">Feb</option>
+                        <option value = "Mar" name = "month">Mar</option>
+                        <option value = "Apr" name = "month">Apr</option></select></div>
+                    <div class = "quat-width">
+                      <select><option>2024</option></select></div>
+                </div>
+                <label class="gender">Gender</label>
+                    <div class = "gender-border">
+                        <div class="radio-btn">
+                        <label class="radio-label" for="female">Female</label>
+                        <input type = "radio" name = "gender" id ="female" class ="radio-input"/>
+                        </div>
+                    </div>
+                    <div class = "gender-border">
+                        <div class="radio-btn">
+                        <label class="radio-label" for="male">Male</label>
+                        <input type = "radio" name = "gender" id = "male" class ="radio-input"/>
+                        </div>
+                    </div>
+                    <div class = "gender-border">
+                        <div class="radio-btn">
+                        <label class="radio-label" for="custom">Custom</label>
+                        <input type = "radio" name = "gender" id = "custom" class ="radio-input"/>
+                        </div>
+                    </div>
+                    <div class = "consent"><p>People who use our service may have uploaded your contact information to Facebook <a href = "https://www.facebook.com/help/637205020878504">Learn more</a></p>
+
+                    </div>
+                    <div class = "consent"><p>By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update">Terms</a>, <a href = "https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0">Privacy Policy</a> and <a href ="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0">Cookies Policy.</a> You may receive SMS notifications from us and can opt out at any time.</p></div>
+              </div>
+              <div class = "save">
+                <button class = "sign-up-btn">Sign Up</button>
+  
+              </div>
+              <div class = "ques-account">
+                <a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzE0MzYzNDYyLCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D">Already have an account ?</a>
+              </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/validation.js"></script>
+</html>

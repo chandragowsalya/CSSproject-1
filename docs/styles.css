@@ -1,0 +1,135 @@
+body, h1, div, h3{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.main-div {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+#logo {
+   color: blue;
+   font-size: 50px;
+   padding: 10px 0;
+}
+.sign-up {
+    background-color: white;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px 0 10px 0;
+}
+
+.form-heading {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+h3 {
+    padding-bottom: 5px;
+}
+.normal {
+    font-weight: lighter;
+    color: #606770;
+}
+.input-fields {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+input, select {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.half-width {
+    width: 48%;
+    display: flex;
+}
+
+.full-width {
+    width: 100%;
+    display: flex;
+}
+label{
+    font-size: 12px;
+    color:#606770;
+    margin-bottom: 5px;
+}
+.dob-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.quat-width {
+    width: 30%;
+    display: flex;
+}
+.radio-btn {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width:100%;
+    display: flex;
+    align-items:center;
+    padding: 6px;
+    font-family: unset;
+}
+.gender{
+    margin:0;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.gender-border{
+    width: 30%;
+    display: flex;
+    float: left;
+    margin-bottom: 5px;
+}
+.radio-label {
+    width: 70%;
+    padding: 5px;
+    color: black;
+    font-size: 13px;
+}
+.radio-input {
+    width:auto;
+    
+}
+.consent {
+    font-family: "Roboto", sans-serif;
+    font-size:x-small;
+    color:#606770;
+
+}
+.save {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sign-up-btn{
+    border: none;
+    border-radius:5px;
+    background-color: green;
+    -webkit-text-fill-color: white;
+    width: 40%;
+    height: 40%;
+    padding: 10px 40px;
+    font-size: medium;
+}
+.ques-account {
+     padding-top: 17px;
+     text-align: center;
+     color:blue;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
